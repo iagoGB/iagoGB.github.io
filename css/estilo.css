@@ -1,6 +1,14 @@
 body {
 	font-family: 'Circular Std Book', sans-serif;
-	background: linear-gradient(180deg,#f4f4f4f4,white);
+	background: linear-gradient(180deg,#F6F3F3,white); /*#f4f4f4f4*/
+}
+
+.ver {
+	background-color: red;*/
+}
+
+.ver2 {
+	background-color: blue;
 }
 
 .row {
@@ -68,7 +76,6 @@ nav {
 /* -- Landing -- */
 .landing{
 	height: 100vh;
-	justify-content: space-between;
 }
 
 .left {
@@ -86,11 +93,11 @@ nav ul, li {
 }
 
 nav li {
-	padding: 10px;
+	padding: 5px;
 }
 
 nav ul li i {
-	font-size: 40px;
+	font-size: 25px;
 
 }
 
@@ -102,4 +109,55 @@ nav ul li i {
 	border-radius: 200px;
 	box-shadow: 50px 30px blue;
 }
+
+h4{
+	text-align: center;
+	font-size: 16px;
+}
+
+
+.icone {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	padding: 5px;
+	font-size: 50px;
+}
+
+/*     Colorização dos icones    */
+
+.fa-html5 {
+	color: rgb(228,77,38);
+}
+
+.fa-css3-alt {
+	color: rgb(3,113,188);
+}
+
+.fa-js-square {
+	color: rgb(247,223,30);
+}
+
+.fa-php {
+	color: rgb(119,123,179);
+}
+
+.fa-git-square {
+	color: rgb(63,44,0);
+}
+
+.barra {
+	margin-left: auto; margin-right: auto; margin-bottom: 10px;
+	width: 80%;
+	height: 20px;
+	font-size: 12px;
+	text-align: center;
+	background-color: #CECECE;
+
+}
+
+
+
+
+
 
