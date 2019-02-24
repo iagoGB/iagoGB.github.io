@@ -1,6 +1,6 @@
 body {
 	font-family: 'Circular Std Book', sans-serif;
-	background: linear-gradient(180deg,#F6F3F3,white); /*#f4f4f4f4*/
+	background-color: #fff; /*linear-gradient(180deg,#F6F3F3,white); /*#f4f4f4f4*/
 }
 
 .ver {
@@ -8,7 +8,7 @@ body {
 }
 
 .ver2 {
-	background-color: blue;
+	background-color: #1E90FF;
 }
 
 .row {
@@ -26,7 +26,7 @@ li a#c{
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 4vw;
 	font-weight: 400;
 	color: #17191A;
 	margin-top: 50px;
@@ -39,7 +39,7 @@ h2, {
 }
 
 h3 {
-	font-size: 26px;
+	font-size: 2.2vw;
 	font-weight: 200;
 	color: #17191A;
 }
@@ -52,10 +52,14 @@ h5 {
 
 ul li h5,p {
 	color: #8F9EA5;
-	opacity: 0.8;
+	opacity: 0.5;
 	font-weight: 100;
-	font-size: 20px;
+	font-size: 2vw;
 	margin-top: 10px;
+}
+
+li h5 {
+	margin-left: -10px;
 }
 
 ul li {
@@ -63,9 +67,9 @@ ul li {
 }
 
 span{
-	color: blue;
+	color: #1E90FF;
 	font-style: italic;
-	font-weight: 600;
+	font-weight: bold;
 }
 
 
@@ -102,12 +106,12 @@ nav ul li i {
 }
 
 .img {
-	margin-top: 10px;
+	margin-top: 8vh;
 	width: 300px;
 	height:300px;
 	border: 5px solid #fff;
 	border-radius: 200px;
-	box-shadow: 50px 30px blue;
+	box-shadow: 50px 30px #1E90FF;
 }
 
 h4{
@@ -156,8 +160,61 @@ h4{
 
 }
 
+/*        Configuração das distancias das rows */
+
+.skills {
+
+}
+
+.projects {
+	margin-top: 250px;
+}
+
+.project-items {
+	padding: 20px;
+}
+
+
+/*       Configurações  Projects         */
+
+.sub{
+	position:absolute;
+	float: left;
+}
+.sub h1{
+	font-size: 3.0vw;
+}
+.sub a {
+	font-size: 1.5vw;
+}
+
+.right{
+	float: right;
+}
+
+.underline {
+	margin-top: 5px;
+	width: 5vw;
+	height: 5px;
+	background-color: #1E90FF;
+	border-radius: 20px;
+}
+
+/*.sub2{
+	font-size:1vw;
+	position:absolute;
+	float: left;
+} */
 
 
 
+/*.sub {
+	font-size: 4vw;
+	position: absolute;
+	left: 150px;
+	z-index: 1;
+}
 
+.sub2{
 
+} */
