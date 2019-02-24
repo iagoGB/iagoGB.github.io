@@ -1,6 +1,7 @@
 body {
 	font-family: 'Circular Std Book', sans-serif;
 	background-color: #fff; /*linear-gradient(180deg,#F6F3F3,white); /*#f4f4f4f4*/
+	box-sizing: border-box;
 }
 
 .ver {
@@ -102,7 +103,7 @@ nav li {
 
 nav ul li i {
 	font-size: 25px;
-
+	color:#1E90FF;
 }
 
 .img {
@@ -218,3 +219,71 @@ h4{
 .sub2{
 
 } */
+
+footer p {
+	font-size: 1.6vw;
+	text-align: center;
+}
+.formulario {
+	margin-top: 250px;
+	margin-bottom:100px;
+}
+form {
+	margin: 10px;
+	padding: 50px;
+	width: 400px;
+	text-align: center;
+	border: 1px solid rgba(0,0,0,0.5);
+	box-shadow: 2px 1px 5px rgba(0,0,0,0.5);
+	border-radius: 5px;
+
+}
+
+input,textarea {
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 10px;
+	border:none;
+	border-bottom: 1px solid #CECECE;
+	color: rgba(0,0,0,0.6);
+	text-align: center;
+}
+
+textarea {
+	resize: none;
+}
+
+.textForm {
+	color: #1E90FF;
+	margin: 0px;
+	margin-bottom: 10px;
+	font-size: 30px;
+
+}
+
+.button {
+	color: #fff;
+	padding: 5px;
+	text-transform: uppercase;
+	background-color:#1E90FF;
+}
+
+/* placeholder*/
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(168,168,168,0.4);
+  text-align: left;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(168,168,168,0.4);
+  text-align: left;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(168,168,168,0.4);
+  text-align: left;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: rgba(168,168,168,0.4);
+  text-align: left;
+}
+
