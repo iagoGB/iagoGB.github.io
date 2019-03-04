@@ -115,6 +115,11 @@ nav ul li i {
 	box-shadow: 50px 30px #1E90FF;
 }
 
+.shadow{
+	border-radius: 20px;
+	box-shadow: 100px 100px 5px black;
+}
+
 h4{
 	text-align: center;
 	font-size: 16px;
@@ -285,7 +290,7 @@ h4{
 }
 
 .projects {
-	margin-top: 250px;
+	margin-top: 180px;
 }
 
 .project-items {
@@ -298,6 +303,9 @@ h4{
 .sub{
 	position:absolute;
 	float: left;
+	padding: 5px 10px 20px;
+	border-radius: 0px 20px 20px 0px;
+	background-color: rgba(255,255,255,0.5);
 }
 .sub h1{
 	font-size: 3.0vw;
@@ -343,7 +351,7 @@ footer p {
 	text-align: center;
 }
 .formulario {
-	margin-top: 250px;
+	margin-top: 150px;
 	margin-bottom:100px;
 }
 form {
@@ -406,3 +414,67 @@ textarea {
   text-align: left;
 }
 
+
+/*           MediaQuery     */
+@media (max-width:770px) {
+
+	.img {
+		margin-top: 100px;
+		margin-bottom: 20px;
+		width: 200px;
+		height:200px;	
+	}
+	
+	h1 {
+		
+		font-size: 30px;
+	}
+
+	h3 {
+		font-size: 20px;
+		
+	}
+
+	p {
+		font-size: 15px;
+		
+	}
+
+	ul li h5,p {
+		font-size: 15px;
+		
+	}
+}
+
+
+@media (max-width:575px) {
+	.landing {
+		height: 600px;
+	}
+
+	.img{
+		margin-top: 0px;
+		margin-bottom: 50px;
+	}
+
+	.projects {
+	margin-top: 100px;
+}
+
+	h1 {
+		text-align: center;
+	}
+
+	h3 {
+		text-align: center;
+	}
+
+	p {
+		text-align: center;
+	}
+
+	ul li h5 {
+		padding-right: 20px;
+		text-align: center;	
+	}
+}
