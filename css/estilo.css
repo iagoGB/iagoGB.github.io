@@ -208,7 +208,7 @@ nav ul li i {
 
 .html {
 	background:linear-gradient(90deg,#48D1CC,#1E90FF);
-	animation: barra-html 5s;
+	animation: barra-html 3s;
 	height: 100%;
 	width:60%;
 	border-radius: 0 8px 8px 0;
@@ -216,7 +216,7 @@ nav ul li i {
 
 .css {
 	background:linear-gradient(90deg,#48D1CC,#1E90FF);
-	animation: barra-css 5s;
+	animation: barra-css 3s;
 	height: 100%;
 	width:50%;	
 	border-radius: 0 8px 8px 0;
@@ -225,7 +225,7 @@ nav ul li i {
 
 .javaScript {
 	background:linear-gradient(90deg,#48D1CC,#1E90FF);
-	animation: barra-javaScript 5s;
+	animation: barra-javaScript 3s;
 	height: 100%;
 	width:50%;
 	border-radius: 0 8px 8px 0;	
@@ -234,7 +234,7 @@ nav ul li i {
 
 .java {
 	background:linear-gradient(90deg,#48D1CC,#1E90FF);
-	animation: barra-java 5s;
+	animation: barra-java 3s;
 	height: 100%;
 	width:25%;
 	border-radius: 0 8px 8px 0;	
@@ -242,7 +242,7 @@ nav ul li i {
 
 .php {
 	background:linear-gradient(90deg,#48D1CC,#1E90FF);
-	animation: barra-php 5s;
+	animation: barra-php 3s;
 	height: 100%;
 	width:30%;
 	border-radius: 0 8px 8px 0;	
@@ -250,7 +250,7 @@ nav ul li i {
 
 .git {
 	background:linear-gradient(90deg,#48D1CC,#1E90FF);
-	animation: barra-git 5s;
+	animation: barra-git 3s;
 	height: 100%;
 	width:30%;
 	border-radius: 0 8px 8px 0;	
