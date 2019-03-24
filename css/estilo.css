@@ -4,9 +4,7 @@ body {
 	box-sizing: border-box;
 }
 
-.abilities-show {
-	
- }
+
 /*    COMPONENTES PARA AJUDAR NA VISUALIZAÇÃO DO GRID
 	.col-sm-3,
 	.col-md-6,
@@ -105,6 +103,10 @@ nav {
 	height: 100vh;
 }
 
+.projects {
+	margin-top: 200px;
+}
+
 @media (max-width: 767px) {
 	.landing {
 		height: auto;
@@ -122,9 +124,20 @@ nav {
 	}
 	h1,h2,h3,h4,h5,li{
 		text-align:center;
-
 	}
+	.projects {
+		margin-top: 50px;
+	}
+	.abilities {
+		margin-top: 50px;
+	}
+}
 
+@media (max-width:992px){
+	.sub {
+		opacity: 0;
+		transition: 0.3s;
+	}
 }
 
 nav ul, li {
@@ -149,6 +162,10 @@ nav ul li i {
 	border: 5px solid #fff;
 	border-radius: 200px;
 	box-shadow: 50px 30px #1E90FF;
+}
+
+.img-projects {
+	margin-bottom: 40px;
 }
 
 .shadow{
@@ -234,7 +251,7 @@ nav ul li i {
 
 .java {
 	background:linear-gradient(90deg,#48D1CC,#1E90FF);
-	animation: barra-java 3s;
+	animation: barra-java 4s;
 	height: 100%;
 	width:25%;
 	border-radius: 0 8px 8px 0;	
@@ -396,6 +413,22 @@ textarea {
 	text-transform: uppercase;
 	background-color:#1E90FF;
 }
+
+.sea {
+	width: 700px;
+}
+
+.project-items{
+	opacity: 0;
+	transform: translate3d(0,400px,0);
+	transition:.5s;
+}
+
+.move{
+	opacity: 1;
+	transform:translate3d(0,0,0);
+}
+
 
 /* placeholder*/
 
